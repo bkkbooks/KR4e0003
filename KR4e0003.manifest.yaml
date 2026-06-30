@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR4e0003/v1
+canonical_location: https://kanripo.org/bkk/KR4e0003/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 宋景濂未刻集
+  date: '2015-08-25 00:15:54.316985'
+  source:
+    repository: kanripo
+    path: KR4e0003
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4e0003_000.yaml, hash: 'sha256:850cc584832e1b0ab27e93c56ac84b0c562a6a4cbcc598a88b75698da2263f4a'}
+  - {seq: 1, filename: KR4e0003_001.yaml, hash: 'sha256:559bf2f05486399f76ae0bc2184ecf2fc4cef4835f86cac7615e55d949a50f40'}
+  - {seq: 2, filename: KR4e0003_002.yaml, hash: 'sha256:ee94fc9fa9b4610400b6e4a9c953044081fa555e164e7d959e8628abd40506e0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4e0003_000.markers.yaml, hash: 'sha256:450d4770299e81eef6bf40938aa9992dacfe1ee490e9b900ec7fe53c848605a0'}
+  - {seq: 1, role: markers, filename: assets/KR4e0003_001.markers.yaml, hash: 'sha256:f693c8fc7fec5502e5881e62f143d46522a2605f5692743a0f4af888a9caeead'}
+  - {seq: 2, role: markers, filename: assets/KR4e0003_002.markers.yaml, hash: 'sha256:fa2a61172dd375ecf2e406dd68f4b4bb4352de754f81bf4d7016306c304c251e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4e0003_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 370
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4e0003_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 12445
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4e0003_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 21416
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:68c9645e049886a85636e8ad2e6f4c4a7b1f4c46c7e594f365d5133e89158b21
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

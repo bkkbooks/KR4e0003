@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR4e0003/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR4e0003/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 宋景濂未刻集
+  date: '2015-08-25 00:15:54.316985'
+  source:
+    repository: kanripo
+    path: KR4e0003
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR4e0003_000-WYG.yaml, hash: 'sha256:3ada4fc1f04f26d7743942acf443d1631e59836af811e79f31ea1ba7d9894a17'}
+  - {seq: 1, filename: KR4e0003_001-WYG.yaml, hash: 'sha256:4ed5e4ddab4a8e2049ce27e461dbf2e1a9eaac2b2ac6f3b03b4f72bcbfa09b67'}
+  - {seq: 2, filename: KR4e0003_002-WYG.yaml, hash: 'sha256:fc50f0ee00f3bc263ef9220c1fe9c0391919598353fb500e18b382181c4e6242'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4e0003_000-WYG.markers.yaml, hash: 'sha256:7b249c903a4f634031a5c715fa0d2215fbacdf137dfa5ec2c71c25269a07fa52'}
+  - {seq: 1, role: markers, filename: assets/KR4e0003_001-WYG.markers.yaml, hash: 'sha256:93afcab5ed4809a61e08d400f0c5275d9d6028f3df4c68dad97c3686bd3c7b88'}
+  - {seq: 2, role: markers, filename: assets/KR4e0003_002-WYG.markers.yaml, hash: 'sha256:c941c987609a697f689ca7eca95825850af904e1be0a3e428c47fcb920872bc6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4e0003_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 370
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4e0003_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 12445
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4e0003_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 21416
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:58b9a067ede964bbfaabb6b0f7f0b0cb93a9bd8fbed9a1906a2bafb40a3a74f1
